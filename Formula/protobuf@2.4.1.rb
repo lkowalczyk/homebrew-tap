@@ -15,7 +15,7 @@ class ProtobufAT241 < Formula
   deprecated_option "with-check" => "with-test"
 
   patch :p0 do
-    url "fix-iostream-2.4.1.patch"
+    url "clang.patch"
     sha256 "6e4a6cd6ffe33bb594d235c15fa9309df2c0783df418a418a00edcc640978c4d"
   end
 
