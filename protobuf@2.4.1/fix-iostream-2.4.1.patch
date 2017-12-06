@@ -1,0 +1,11 @@
+diff -Nur ../protobuf-2.4.1/src/google/protobuf/message.cc ./src/google/protobuf/message.cc
+--- ../protobuf-2.4.1/src/google/protobuf/message.cc	2011-04-30 19:22:04.000000000 +0200
++++ ./src/google/protobuf/message.cc	2017-12-04 00:16:59.000000000 +0100
+@@ -48,6 +48,7 @@
+ #include <google/protobuf/stubs/strutil.h>
+ #include <google/protobuf/stubs/map-util.h>
+ #include <google/protobuf/stubs/stl_util-inl.h>
++#include <iostream>
+ 
+ namespace google {
+ namespace protobuf {
